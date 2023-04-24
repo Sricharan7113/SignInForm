@@ -22,7 +22,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-     background-color: rgba(211, 208, 208, 0.34); 
+    background-color: rgba(211, 208, 208, 0);  
     border-radius: 8px;
     backdrop-filter: blur(4px);
     position: absolute;
@@ -32,7 +32,7 @@
     bottom: 0;
     right: 0;
     margin: auto;
-    box-shadow: 0px 1px 2px 3px rgba(185, 185, 197, 0.466);
+    box-shadow: 0px 1px 2px 3px rgba(185, 185, 197, 0.132);
 }
 
 /* CSS For Form */
@@ -59,7 +59,7 @@
 }
 
 .Input:hover{
-    border: 2px solid rgb(14, 91, 154);
+    border: 2px solid rgb(94, 141, 180);
     transform: scale(1.05);
 }
 
@@ -77,9 +77,10 @@
 }
 
 .Btn:hover{
-    background-color: rgb(208, 229, 247);
+    background-color: transparent;
     border: 2px solid rgb(14, 91, 154);
     transform: scale(1.05);
+    color: aliceblue;
 }
 
 /* Mobile Responsivenes */
